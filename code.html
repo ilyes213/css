@@ -1,0 +1,88 @@
+<html lang="ar">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+   <title>طلب منتج</title>  
+   <link href="https://rawcdn.githack.com/ilyes213/css/c1e4b8f20599b52c8d4e68adbedcaffbc1deca66/1.css" rel="stylesheet" type="text/css">	
+   <link href="https://rawcdn.githack.com/ilyes213/css/c07504b3be9eb38d30d37c91d6e68419a9954685/2.css" rel="stylesheet" type="text/css">		
+</head>
+<body>
+<div class="container">
+   <script>
+        $(document).ready(function (){
+            $(".-button").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#ads-form").offset().top
+                }, 1000);
+            });
+        });
+
+
+/* Scroll Top/
+
+            $(window).bind('scroll', function() {
+              if ($(window).scrollTop() > 800) {
+                $('.to-top').addClass('-visible');
+              } else {
+                $('.to-top').removeClass('-visible');
+              }
+
+
+    $(".to-top").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#top").offset().top
+                }, 1000);
+            });
+            });
+
+
+/ FORM SEND*/
+
+function sendConatcts()
+{
+//FORM SUBMIT
+
+
+document.getElementById('ads-contacts-form').style.visibility="hidden";
+document.getElementById('ads-contacts-form').style.position="absolute";
+document.getElementById('form-result').style.display="block";
+
+document.getElementById('form-result').innerHTML='<img src="https://ci.jumia.is/cms/1_JG/predict-and-win/icon-done-v1.gif" alt=""/><br/><div class="-costumer-request"><h1 >تم تاكيد طلبك بنجاح</h1><br/><a href="https://www.facebook.com/YouCan.Stor" style="color:white;">شكرا لك لزيارت موقعنا</a></div>';
+document.getElementById('ads-contacts-form').submit();
+
+
+
+}
+
+
+  </script>
+<div id="messagesContainer"></div>
+<main data-role="content" class="main -clearfix">
+<div id="messagesContainer"></div>
+<div class="-row -contact" id="contact">
+<div class="row"><br class="clear">
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" src="https://www.capoffer.tk/p/html.html"></iframe>
+<div class="col span_12_of_12" style="">
+<div id="ads-form">
+<div id="form-result"></div>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfMku1KRxpAzZIBS3MoGq-l82BcqdkBftCFNUfEebZpP_TUtA/formResponse" target="hidden_iframe" method="post" onsubmit="sendConatcts()" id="ads-contacts-form">
+<div class="-row  __form_ads">
+<div class="-col-12"></div>
+<div class="-col-6 -form-group">
+   
+<input type="text" placeholder="الاسم و اللقب" name="entry.915079980" required="" class="ads-input -input-txt"></div>
+<div class="-col-6 -form-group">
+<input type="text" placeholder="رقم الهاتف" name="entry.251773671" required="" class="ads-input -input-txt"></div>
+<select id="state" name="entry.1090423596" placeholder="Select state" onchange="updateCities()" required="" class="ads-input -input-txt">
+<script src="https://rawcdn.githack.com/ilyes213/js2/522a6c11449fbdb39de49499b6a81ac2af4b94d6/3.js"></script></select>
+<select id="city" name="entry.518660943" required><option value="" disabled selected>اختر البلدية</option></select></div>
+<div>
+<div style="text-align: center;"><b><label><span style="font-size: large;"><i>سعر المنتج: 500 دج</i></span></label></b></div>
+<div style="text-align: center;"><b><span style="font-size: large;"><i><label>سعر الشحن:</label><span id="shippingPrice">0 دج</span></i></span></b></div>
+<div style="text-align: center;"><b><span style="color: red; font-size: x-large;"><b><label>المجموع:</label><span id="totalPrice">500 دج</span></b></span></b></div></div>
+<div class="-row -costumer-request">
+<button type="submit" class="btn btn-primary w-100" style="background-color: rgb(255, 0, 0);">اضغط هنا للطلب</button></div></form></div>
+<div>
+<script src="https://rawcdn.githack.com/ilyes213/js2/9ab596b3102a7a3fe7892ab4f16e9b1953a794ed/city58w.js"></script>
+</body>
+</html>
