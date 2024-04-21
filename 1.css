@@ -1,0 +1,60 @@
+  body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0px auto;
+            padding: 20px;
+            border: 2px solid #f00;
+            border-radius: 5px;
+            background-color: #ffa200;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 0px solid #f00;
+            border-radius: 20px;
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+        button {
+            background-color: #f00;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:focus {
+            outline: none;
+        }
+        .shake {
+            animation: shake 0.4s ease;
+        }
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(0); }
+        }
+        .moveRight {
+            animation: moveRight 0.4s ease;
+        }
+        @keyframes moveRight {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(50%); }
+        }
+		
+		 #form-result {
+                                    text-align: center;
+                                    margin-top: 47px;
+                                }
